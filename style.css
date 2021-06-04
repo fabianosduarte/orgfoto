@@ -1,0 +1,29 @@
+:root{
+    --largpadrao: 90px;
+    --altpadrao: 90px;
+}
+
+.caixa{
+    width: max-content;
+    border: 1px solid lightgray;
+    background-color: cornsilk;
+}
+
+.caixafoto{
+    display: inline-block;
+    background-color: darksalmon;
+    width: var(--largpadrao);
+    height: var(--altpadrao);
+}
+
+.caixatexto{
+    display: inline-block;
+    width: calc(var(--largpadrao) * 1.444);
+    height: var(--altpadrao);
+}
+
+.titulocaixa{
+    line-height: calc(var(--altpadrao) / 2.25);
+    background-color: darkolivegreen;
+    text-align: center;
+}
